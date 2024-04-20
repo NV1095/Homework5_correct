@@ -41,7 +41,6 @@ public class Main {
 
         System.out.println("\n Задача 3.2");
         int year=1900;
-        int minYesrr=1584;
         if (year>=1584 && (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)) {
             System.out.printf("%s, год является високосным\n", year);
         }
